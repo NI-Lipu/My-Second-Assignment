@@ -2,12 +2,16 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Grey+Qo&display=swap');
 
+
+
+ 
 body{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
   max-width: 1440px;
+  background-color: black;
 }
 
 
@@ -85,10 +89,6 @@ border-style: none;
 
 /* banner styles */
 
-.banner{
-
-}
-
 .banner-title{
   font-size: 4.875rem;
 }
@@ -138,4 +138,58 @@ border-style: none;
   top: 590px;
   width: 15%;
   height: 20%;
+}
+
+/* habits section styles */
+
+
+.change_your_habit{
+  max-width: 1440px;
+  margin-top: 100px;
+
+}
+
+.habit_container{
+  width: 65%;
+  margin: 0 auto;
+
+}
+
+.habit_title{
+font-size: 3rem;
+font-weight: 800;
+margin-bottom: 0;
+text-align: center;
+}
+
+.habit_description{
+  font-size: 0.875rem;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.habit_cards{
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  gap: 40px;
+}
+
+.habit_cards_img{
+  border: 1px solid white;
+border-radius: 180px;
+}
+
+.habit_cards_title{
+color: #FFFFFF;  
+font-size: 1.125rem;
+font-weight: 600;
+text-align: center;
+margin-bottom: 0;
+}
+
+.habit_cards_description{
+color: rgba(255, 255, 255, 0.50);
+font-size: 0.875rem;
+text-align: center;
 }
